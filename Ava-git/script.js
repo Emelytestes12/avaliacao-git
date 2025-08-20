@@ -44,3 +44,9 @@ addTextBtn.addEventListener('click', function() {
     // Adiciona o novo parágrafo como um "filho" do contêiner de texto
     textContainer.appendChild(newParagraph);
 });
+//FUNÇAO  NOVA 
+function mostrarNumeros(){
+    for (let i = 1; i <= 5; i++){
+        console.log("Número: "+ i);
+    }
+}
